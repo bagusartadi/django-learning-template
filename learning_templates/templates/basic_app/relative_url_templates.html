@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>RELATIVE</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Relative URL templates</h1>
+        <a href="{% url 'basic_app:other' %}">To the other page</a>
+        <a href="{% url 'admin:index' %}">Link to Admin</a>
+        <a href="{% url 'index' %}">To Home</a>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

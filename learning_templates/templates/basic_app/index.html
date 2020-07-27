@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+
+
+{% block body_block %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome Home</h1>
+    <h2>Har Har Bhole</h2>
+    <p>Om Namah Shivaaya</p>
+    <p>Om Namah Shivaaya</p>
+    <p>Har Har Bhole</p>
+    <p>Namah Shivaaya</p>
+    <p>Rameshawaraya, Shiva Rameshawaraya</p>
+    <p>Har Har Bhole, Namah Shivaaya</p>
+    <p>Gangadharaya, Shiva Gangadharaya</p>
+    <p>Har Har Bhole, Namah Shivaaya</p>
+    <p>Jatadharaya, Shiva Jatadharaya</p>
+    <p>Har Har Bhole, Namah Shivaaya</p>
+    <p>Someshawara, Shiva Someshawara</p>
+    <p>Har Har Bhole, Namah Shivaaya</p>
+    <p>Vigneshawara, Shiva Vigneshawara</p>
+    <p>Har Har Bhole, Namah Shivaaya</p>
+  </div>
+</div>
+
+  <h2>{{text|cut:'Artadi'}}</h2>
+  <!-- <h2>{{text|upper}}</h2> -->
+  <!-- tambahan "upper" diatas untuk merubah font menjadi huruf besar -->
+  <h3>{{number|add:88}}</h3>
+  <!-- tambahan "add" diatas untuk menambah angka awal -->
+{% endblock %}
